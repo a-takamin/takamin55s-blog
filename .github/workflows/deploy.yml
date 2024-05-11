@@ -24,6 +24,9 @@ jobs:
         with:
           deno-version: v1.43.3
 
+      - name: ahead-of-time build for tailwind-plugin
+        run: deno task build
+
       - name: upload to deno deploy
         uses: denoland/deployctl@612f83df2b874c6908d68de5cf3f36a6538fa8f7 # v1.12.0
         with:
