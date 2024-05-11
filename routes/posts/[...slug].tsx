@@ -28,7 +28,12 @@ export default function PostPage(props: PageProps<Post>) {
       </time>
       <div
         class="mt-8 markdown-body"
-        dangerouslySetInnerHTML={{ __html: gfmRender(post.content) }}
+        dangerouslySetInnerHTML={{
+          __html: gfmRender(post.content, {
+            allowIframes: true,
+            disableHtmlSanitization: true,
+          }),
+        }}
       />
     </main>
   );
