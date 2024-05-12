@@ -7,6 +7,37 @@ export interface Post {
   publishedAt: Date;
   content: string;
   description: string;
+  categories: string[];
+  tags: string[];
+}
+
+export async function getCategories(): Promise<string[]> {
+  const postPaths = await collectPostPaths("./posts");
+  const categories = new Set<string>();
+  for (const postPath of postPaths) {
+    const slug = postPath.replace(".md", "");
+    const post = await getPost(slug);
+    if (post) {
+      post.categories.forEach((category) => categories.add(category));
+    }
+  }
+  return Array.from(categories);
+}
+
+export async function getCategoryPosts(category: string): Promise<Post[]> {
+
+}
+
+export async function getPosts(): Promise<Post[]> {
+  const postPaths = await collectPostPaths("./posts");
+  const promises = [];
+  for (const postPath of postPaths) {
+    const slug = postPath.replace(".md", "");
+    promises.push(getPost(slug));
+  }
+  const posts = await Promise.all(promises) as Post[];
+  posts.sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime());
+  return posts;
 }
 
 export async function getPost(slug: string): Promise<Post | null> {
@@ -21,6 +52,8 @@ export async function getPost(slug: string): Promise<Post | null> {
     publishedAt: new Date(extractor.attrs.publishedAt),
     content: extractor.body,
     description: extractor.attrs.description,
+    categories: extractor.attrs.categories,
+    tags: extractor.attrs.tags,
   };
 }
 

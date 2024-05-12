@@ -1,5 +1,5 @@
 import { Handlers } from "$fresh/server.ts";
-import { getPost, Post } from "../../utils/posts.ts";
+import { getPost, Post } from "../../utils/postUtil.ts";
 import { render as gfmRender } from "$gfm";
 
 export const handler: Handlers<Post> = {
@@ -18,7 +18,7 @@ export default function PostPage(props: PageProps<Post>) {
   const post = props.data;
   return (
     <main class="max-w-screen-md px-4 pt-16">
-      <h1 class="text-5xl font-bold">{post.title}</h1>
+      <h1 class="text-3xl md:text-5xl font-bold">{post.title}</h1>
       <time class="text-gray-500">
         {new Date(post.publishedAt).toLocaleDateString("en-us", {
           year: "numeric",

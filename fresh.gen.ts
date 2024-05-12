@@ -4,20 +4,28 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $categories from "./routes/categories.tsx";
+import * as $categories_category_ from "./routes/categories/[category].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $posts_slug_ from "./routes/posts/[...slug].tsx";
+import * as $tags from "./routes/tags.tsx";
 import * as $Counter from "./islands/Counter.tsx";
+import * as $HamburgerMenu from "./islands/HamburgerMenu.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/categories.tsx": $categories,
+    "./routes/categories/[category].tsx": $categories_category_,
     "./routes/index.tsx": $index,
     "./routes/posts/[...slug].tsx": $posts_slug_,
+    "./routes/tags.tsx": $tags,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
+    "./islands/HamburgerMenu.tsx": $HamburgerMenu,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
