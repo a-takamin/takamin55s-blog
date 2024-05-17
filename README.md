@@ -1,3 +1,1 @@
-## blog
-
-ブログを書くよ。
+## takamin55s-blog

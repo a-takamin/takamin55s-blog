@@ -24,6 +24,19 @@ export async function getCategories(): Promise<string[]> {
   return Array.from(categories);
 }
 
+export async function getTags(): Promise<string[]> {
+  const postPaths = await collectPostPaths("./posts");
+  const tags = new Set<string>();
+  for (const postPath of postPaths) {
+    const slug = postPath.replace(".md", "");
+    const post = await getPost(slug);
+    if (post) {
+      post.tags.forEach((tag) => tags.add(tag));
+    }
+  }
+  return Array.from(tags);
+}
+
 export async function getCategoryPosts(category: string): Promise<Post[]> {
 
 }
