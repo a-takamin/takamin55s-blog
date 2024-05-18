@@ -1,5 +1,5 @@
 ---
-title: GitHub Galaxy 2024 の本当にただの感想
+title: GitHub Galaxy 2024 に参加してきた感想
 description: GitHub Galaxy 2024 に参加してきた感想。
 categories:
   - イベント

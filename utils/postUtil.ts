@@ -38,7 +38,13 @@ export async function getTags(): Promise<string[]> {
 }
 
 export async function getCategoryPosts(category: string): Promise<Post[]> {
+  const posts = await getPosts();
+  return posts.filter((post) => post.categories.includes(decodeURI(category)));
+}
 
+export async function getTagPosts(tag: string): Promise<Post[]> {
+  const posts = await getPosts();
+  return posts.filter((post) => post.tags.includes(decodeURI(tag)));
 }
 
 export async function getPosts(): Promise<Post[]> {

@@ -9,6 +9,7 @@ import * as $categories_category_ from "./routes/categories/[category].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $posts_slug_ from "./routes/posts/[...slug].tsx";
 import * as $tags from "./routes/tags.tsx";
+import * as $tags_tag_ from "./routes/tags/[tag].tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $HamburgerMenu from "./islands/HamburgerMenu.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -22,6 +23,7 @@ const manifest = {
     "./routes/index.tsx": $index,
     "./routes/posts/[...slug].tsx": $posts_slug_,
     "./routes/tags.tsx": $tags,
+    "./routes/tags/[tag].tsx": $tags_tag_,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
