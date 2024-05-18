@@ -24,7 +24,7 @@ export default function BlogCategoriesPage(props: PageProps<string[]>) {
         </div>
       </div>
       <div class="mt-8 grid gap-2 grid-cols-2 md:grid-cols-3">
-        {categories.map((category) => <CategoryCard category={category} />)}
+        {categories.map((category) => <CategoryCard category={category} height="h-44" width=""/>)}
       </div>
     </main>
   );

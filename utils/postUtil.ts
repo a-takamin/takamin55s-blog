@@ -21,7 +21,8 @@ export async function getCategories(): Promise<string[]> {
       post.categories.forEach((category) => categories.add(category));
     }
   }
-  return Array.from(categories);
+
+  return Array.from(categories).sort((a,b) => a.localeCompare(b));
 }
 
 export async function getTags(): Promise<string[]> {
@@ -34,7 +35,7 @@ export async function getTags(): Promise<string[]> {
       post.tags.forEach((tag) => tags.add(tag));
     }
   }
-  return Array.from(tags);
+  return Array.from(tags).sort((a,b) => a.localeCompare(b));
 }
 
 export async function getCategoryPosts(category: string): Promise<Post[]> {

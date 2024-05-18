@@ -23,7 +23,7 @@ export default function BlogTagsPage(props: PageProps<string[]>) {
           </h2>
         </div>
       </div>
-      <div class="mt-8 flex gap-2">
+      <div class="mt-8 flex gap-2 flex-wrap">
         {tags.map((tag) => <TagCard tag={tag} />)}
       </div>
     </main>
