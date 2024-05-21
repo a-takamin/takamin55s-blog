@@ -2,10 +2,10 @@
 title: GitHub Galaxy 2024 に参加してきた感想
 description: GitHub Galaxy 2024 に参加してきた感想。
 categories:
-  - イベント
+  - 技術イベント
 tags:
   - GitHub
-  - イベント
+  - 技術イベント
 publishedAt: 2024-05-15T22:00:00+09:00
 ---
 

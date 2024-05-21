@@ -13,7 +13,7 @@ if (dirName === null) {
   Deno.exit(1);
 }
 if (!dirs.includes(dirName)) {
-  Deno.mkdir(`./posts'/${dirName}`);
+  Deno.mkdir(`./posts/${dirName}`);
 }
 
 // ファイル名の決定
