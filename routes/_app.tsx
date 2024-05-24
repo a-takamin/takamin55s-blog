@@ -11,6 +11,14 @@ export default function App({ Component }: PageProps) {
         <title>takamin55's blog</title>
         <link rel="stylesheet" href="/styles.css" />
         <style dangerouslySetInnerHTML={{ __html: gmfCSS }} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9JSH28J7Y"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-Q9JSH28J7Y');
+        </script>
       </head>
       <body>
         <section class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
