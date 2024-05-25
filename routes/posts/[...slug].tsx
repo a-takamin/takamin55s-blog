@@ -1,6 +1,9 @@
 import { Handlers } from "$fresh/server.ts";
 import { getPost, Post } from "../../utils/postUtil.ts";
+import { TagCard } from "../../components/TagCard.tsx";
 import { render as gfmRender } from "$gfm";
+import { PageProps } from "$fresh/server.ts";
+import { RelatedPostCard } from "../../components/RelatedPostCard.tsx";
 
 export const handler: Handlers<Post> = {
   async GET(_, ctx) {
@@ -12,7 +15,6 @@ export const handler: Handlers<Post> = {
   },
 };
 
-import { PageProps } from "$fresh/server.ts";
 
 export default function PostPage(props: PageProps<Post>) {
   const post = props.data;
@@ -26,6 +28,9 @@ export default function PostPage(props: PageProps<Post>) {
           day: "numeric",
         })}
       </time>
+      <div class="mt-2 mb-2 gap-2 flex flex-row overflow-x-auto">
+        {post.tags.map((tag) => <TagCard tag={tag} />)}              
+      </div>
       <div
         class="mt-8 markdown-body"
         dangerouslySetInnerHTML={{

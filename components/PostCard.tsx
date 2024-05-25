@@ -1,3 +1,4 @@
+import { Post } from "../utils/postUtil.ts";
 export function PostCard(props: { post: Post }) {
   const { post } = props;
   return (
