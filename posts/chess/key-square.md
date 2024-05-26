@@ -1,5 +1,5 @@
 ---
-title: Key Squares を意識してポーンエンドゲームに勝つ
+title: キースクエアを意識してポーンエンドゲームに勝つ
 description: Key Squares（キースクエア）を常に意識することでポーンエンドゲームに勝つ方法を書きます。
 categories: 
   - チェス
