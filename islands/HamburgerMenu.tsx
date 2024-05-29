@@ -19,6 +19,12 @@ export function HamburgerMenu() {
     </a>
     <a
       class="hidden sm:block font-medium text-gray-900 dark:text-gray-100"
+      href="/apps"
+    >
+      Apps
+    </a>
+    <a
+      class="hidden sm:block font-medium text-gray-900 dark:text-gray-100"
       href="/about"
     >
       About
@@ -89,6 +95,14 @@ export function HamburgerMenu() {
             href="/tags"
           >
             Tags
+          </a>
+        </div>
+        <div class="px-12 py-4">
+          <a
+            class="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
+            href="/apps"
+          >
+            Apps
           </a>
         </div>
         <div class="px-12 py-4">
