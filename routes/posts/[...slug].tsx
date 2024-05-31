@@ -3,6 +3,7 @@ import { getPost, Post } from "../../utils/postUtil.ts";
 import { TagCard } from "../../components/TagCard.tsx";
 import { render as gfmRender } from "$gfm";
 import { PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
 import { RelatedPostCard } from "../../components/RelatedPostCard.tsx";
 
 export const handler: Handlers<Post> = {
@@ -19,6 +20,11 @@ export const handler: Handlers<Post> = {
 export default function PostPage(props: PageProps<Post>) {
   const post = props.data;
   return (
+    <>
+    <Head>
+      <title>{post.title}</title>
+      <meta name="description" content={post.description}></meta>
+    </Head>
     <main class="max-w-screen-md px-4 pt-16">
       <h1 class="text-3xl md:text-5xl font-bold">{post.title}</h1>
       <time class="text-gray-500">
@@ -41,5 +47,6 @@ export default function PostPage(props: PageProps<Post>) {
         }}
       />
     </main>
+    </>
   );
 }
