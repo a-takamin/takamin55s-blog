@@ -3,7 +3,7 @@ import { App } from "../../islands/ProblemSolvingApp.tsx";
 
 export const handler: Handlers<string> = {
   GET: function(_req, ctx) {
-    return ctx.render("problemSolving");
+    return ctx.render("ProblemSolving");
   }
 }
 
