@@ -1,4 +1,4 @@
-import { useSignal } from "@preact/signals";
+import { Signal, useSignal } from "@preact/signals";
 import { Button } from '../components/Button.tsx';
 import { InputWithLabel } from "../components/InputWithLabel.tsx";
 import { CheckboxWithLabel } from "../components/CheckboxWithLabel.tsx";
@@ -6,7 +6,7 @@ import { CheckboxWithLabel } from "../components/CheckboxWithLabel.tsx";
 export function App() {
   let isRealInterpretation = useSignal(false);
   let isMeans = useSignal(false);
-  let factors = useSignal([]);
+  let factors: Signal<string[]> = useSignal([]);
   const summary = useSignal("");
   const getChecked = (id: string) :boolean => {
     const checkbox = document.getElementById(id) as HTMLInputElement;
