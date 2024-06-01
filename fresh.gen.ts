@@ -5,7 +5,7 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $apps from "./routes/apps.tsx";
-import * as $apps_problemSolving from "./routes/apps/problemSolving.tsx";
+import * as $apps_ProblemSolving from "./routes/apps/ProblemSolving.tsx";
 import * as $categories from "./routes/categories.tsx";
 import * as $categories_category_ from "./routes/categories/[category].tsx";
 import * as $index from "./routes/index.tsx";
@@ -22,7 +22,7 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/apps.tsx": $apps,
-    "./routes/apps/problemSolving.tsx": $apps_problemSolving,
+    "./routes/apps/ProblemSolving.tsx": $apps_ProblemSolving,
     "./routes/categories.tsx": $categories,
     "./routes/categories/[category].tsx": $categories_category_,
     "./routes/index.tsx": $index,
