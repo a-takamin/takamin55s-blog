@@ -17,6 +17,13 @@ export default function BlogAppsPage(props: PageProps<string[]>) {
       description: "問題解決のためのフレームワーク",
       imgPath: "/apps/problemSolving.jpg",
       imgBy: <a href="https://www.freepik.com/free-vector/people-cooperating-make-puzzle_3951668.htm#fromView=search&page=1&position=10&uuid=35e998b9-8177-43ae-9073-6d561f759862">Image by freepik</a>
+    },
+    {
+      name: "Simple Notepad App",
+      path: "/apps/SimpleNotepad",
+      description: "シンプルなプライベートメモ帳",
+      imgPath: "/apps/SimpleNotepad.jpg",
+      imgBy: <a href="https://www.freepik.com/free-vector/gray-lined-notepaper-journal-sticker-vector_25256333.htm#fromView=search&page=1&position=40&uuid=32268b0c-fa3d-4492-b3de-35288b03f7a3">Image by rawpixel.com on Freepik</a>
     }
   ];
 
@@ -32,7 +39,7 @@ export default function BlogAppsPage(props: PageProps<string[]>) {
           </h2>
         </div>
       </div>
-      <div class="grid md:grid-cols-2">
+      <div class="grid md:grid-cols-2 gap-2">
         {apps.map(app => <AppCard app={app} />)}
       </div>
     </main>
