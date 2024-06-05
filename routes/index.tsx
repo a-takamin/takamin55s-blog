@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { getPosts, getCategories, getTags, Post } from "../utils/postUtil.ts";
-import { PostCard } from "../components/PostCard.tsx";
+import { getIndexPosts, getCategories, getTags, Post } from "../utils/postUtil.ts";
+import { LatestPages } from "../islands/LatestPages.tsx";
 import { CategoryCard } from "../components/CategoryCard.tsx";
 import { TagCard } from "../components/TagCard.tsx";
 
@@ -12,7 +12,7 @@ type IndexPageData = {
 
 export const handler: Handlers<IndexPageData> = {
   async GET(_req, ctx) {
-    const posts = await getPosts();
+    const posts = await getIndexPosts();
     const categories = await getCategories();
     const tags = await getTags();
     const indexPageData: IndexPageData = {
@@ -29,6 +29,7 @@ export default function BlogIndexPage(props: PageProps<IndexPageData>) {
   if (!posts) {
     posts = []
   }
+
   return (
     <main class="mb-auto">
       <div class="flex flex-col items-center gap-x-12 xl:flex-row">
@@ -135,10 +136,8 @@ export default function BlogIndexPage(props: PageProps<IndexPageData>) {
           </div>
         </div>
       </div>
-      <div class="mt-12">
-        {posts.map((post) => <PostCard post={post} />)}
-      </div>
+      <LatestPages posts={posts} displayUnit={5} />
     </main>
-  );
+  );  
 }
 

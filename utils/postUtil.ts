@@ -9,6 +9,7 @@ export interface Post {
   description: string;
   categories: string[];
   tags: string[];
+  onIndexPage: boolean;
 }
 
 export async function getCategories(): Promise<string[]> {
@@ -48,6 +49,12 @@ export async function getTagPosts(tag: string): Promise<Post[]> {
   return posts.filter((post) => post.tags.includes(decodeURI(tag)));
 }
 
+export async function getIndexPosts(): Promise<Post[]> {
+  const posts = await getPosts();
+  posts.filter((post) => post.onIndexPage)
+  return posts
+}
+
 export async function getPosts(): Promise<Post[]> {
   const postPaths = await collectPostPaths("./posts");
   const promises = [];
@@ -74,6 +81,7 @@ export async function getPost(slug: string): Promise<Post | null> {
     description: extractor.attrs.description,
     categories: extractor.attrs.categories,
     tags: extractor.attrs.tags,
+    onIndexPage: extractor.attrs.onIndexPage,
   };
 }
 

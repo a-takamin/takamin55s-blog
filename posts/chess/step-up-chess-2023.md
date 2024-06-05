@@ -6,6 +6,7 @@ categories:
 tags:
   - チェス大会
 publishedAt: 2024-05-20T04:18:37.103Z
+onIndexPage: true
 ---
 
 ステップアップチェス大会2024に参加してきました。  

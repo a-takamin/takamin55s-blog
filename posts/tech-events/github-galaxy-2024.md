@@ -7,6 +7,7 @@ tags:
   - GitHub
   - 技術イベント
 publishedAt: 2024-05-15T22:00:00+09:00
+onIndexPage: true
 ---
 
 GitHub Galaxy 2024 に参加してきた。
