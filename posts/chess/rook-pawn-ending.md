@@ -6,6 +6,7 @@ categories:
 tags:
   - チェスエンドゲーム
 publishedAt: 2024-05-31T12:36:41.425Z
+onIndexPage: true
 ---
 
 チェスのエンディングでa,h ファイルのルークポーンが最後まで残ることはよくあることです。

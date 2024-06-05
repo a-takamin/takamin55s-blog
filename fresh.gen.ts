@@ -15,6 +15,7 @@ import * as $tags from "./routes/tags.tsx";
 import * as $tags_tag_ from "./routes/tags/[tag].tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $HamburgerMenu from "./islands/HamburgerMenu.tsx";
+import * as $LatestPages from "./islands/LatestPages.tsx";
 import * as $ProblemSolvingApp from "./islands/ProblemSolvingApp.tsx";
 import * as $SimpleNotepad from "./islands/SimpleNotepad.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -36,6 +37,7 @@ const manifest = {
   islands: {
     "./islands/Counter.tsx": $Counter,
     "./islands/HamburgerMenu.tsx": $HamburgerMenu,
+    "./islands/LatestPages.tsx": $LatestPages,
     "./islands/ProblemSolvingApp.tsx": $ProblemSolvingApp,
     "./islands/SimpleNotepad.tsx": $SimpleNotepad,
   },
