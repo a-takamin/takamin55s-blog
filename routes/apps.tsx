@@ -29,8 +29,8 @@ export default function BlogAppsPage(props: PageProps<string[]>) {
       name: "Questions & Answers App",
       path: "/apps/QuestionsAndAnswers",
       description: "一問一答アプリ",
-      imgPath: "/apps/SimpleNotepad.jpg",
-      imgBy: <a href="https://www.freepik.com/free-vector/gray-lined-notepaper-journal-sticker-vector_25256333.htm#fromView=search&page=1&position=40&uuid=32268b0c-fa3d-4492-b3de-35288b03f7a3">Image by rawpixel.com on Freepik</a>
+      imgPath: "/apps/QuestionsAndAnswers.jpg",
+      imgBy: <a href="https://www.freepik.com/free-vector/people-searching-solutions-asking-help-men-women-discussing-huge-question-mark-vector-illustration-communication-assistance-consulting-concept_10579703.htm#fromView=search&page=1&position=8&uuid=e94a4e33-5e1d-41af-bc1a-f2b66bc9edb0">Image by pch.vector on Freepik</a>
     }
   ];
 
