@@ -7,9 +7,11 @@ export const handler: Handlers = {
   GET: async function(_req, ctx) {
     
     const cookie = getCookies(_req.headers);
-
+    
     if (!cookie.auth) {
-      return new Response(null, { status: 403})
+      const header = new Headers()
+      header.append("Location", "/login")
+      return new Response(null, { headers: header, status: 302})
     }
     
     const isInSession = await getSession(cookie.auth)
@@ -18,7 +20,8 @@ export const handler: Handlers = {
     }
       
     const header = new Headers()
-    return new Response(null, { status: 403})
+    header.append("Location", "/login")
+    return new Response(null, { headers: header, status: 302})
   },
 }
 
