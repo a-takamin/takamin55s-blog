@@ -111,15 +111,17 @@ export function App() {
           cardCreateMode.value = !cardCreateMode.value
         }}>+ カードを追加</p>
         <div class="mt-2" hidden={!cardCreateMode.value}> 
-          <InputWithLabel id="cardAddQ" label="質問を入力" type="text" placeholder="1+1 は？" onChange={() => {}} />
-          <InputWithLabel id="cardAddA" label="回答を入力" type="text" placeholder="2" onChange={() => {}} />
+          <label class="block text-gray-700 text-sm font-bold mb-2">質問を入力</label>
+          <textarea id="cardAddQ" class="border text-lg text-center resize-none h-14 w-full"></textarea>
+          <label class="block text-gray-700 text-sm font-bold mb-2">回答を入力</label>
+          <textarea id="cardAddA" class="border text-lg text-center resize-none h-20 w-full"></textarea>
           <div class="flex justify-center">
             <Button type="button" onClick={() => {
               const url = window.location.origin + "/api/qanda/card"
               const deckSelect = document.getElementById("select") as HTMLSelectElement
               const dechName = deckSelect.selectedOptions[0].value
-              const cardQ = document.getElementById("cardAddQ") as HTMLInputElement
-              const cardA = document.getElementById("cardAddA") as HTMLInputElement
+              const cardQ = document.getElementById("cardAddQ") as HTMLTextAreaElement
+              const cardA = document.getElementById("cardAddA") as HTMLTextAreaElement
 
               fetch(url, {
                 method: 'POST',
