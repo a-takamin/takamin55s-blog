@@ -119,9 +119,14 @@ export function App() {
             <Button type="button" onClick={() => {
               const url = window.location.origin + "/api/qanda/card"
               const deckSelect = document.getElementById("select") as HTMLSelectElement
-              const dechName = deckSelect.selectedOptions[0].value
+              const deckName = deckSelect.selectedOptions[0].value
               const cardQ = document.getElementById("cardAddQ") as HTMLTextAreaElement
               const cardA = document.getElementById("cardAddA") as HTMLTextAreaElement
+
+              if (deckName == "選択してください") {
+                alert("デッキを選択してください")
+                return
+              }
 
               fetch(url, {
                 method: 'POST',
@@ -129,11 +134,15 @@ export function App() {
                   'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                  deckName: dechName,
+                  deckName: deckName,
                   question: cardQ.value,
                   answer: cardA.value
                 })
-              }).catch((error) => {
+              }).then(() => { 
+                cardQ.value = ""
+                cardA.value = ""
+              })
+              .catch((error) => {
                 alert(error)
               })
             }}>カードを追加</Button>
