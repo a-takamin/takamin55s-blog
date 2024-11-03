@@ -1,4 +1,4 @@
-import { CSS as gmfCSS } from "$gfm";
+import { CSS as gmfCSS } from "@deno/gfm";
 import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { type PageProps } from "$fresh/server.ts";

@@ -1,4 +1,4 @@
-import { render as gfmRender } from "$gfm";
+import { render as gfmRender } from "@deno/gfm";
 import { Button } from '../components/Button.tsx';
 import { Signal,ReadonlySignal, computed, useSignal } from "@preact/signals";
 
