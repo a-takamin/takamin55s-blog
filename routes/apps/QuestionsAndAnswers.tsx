@@ -1,6 +1,6 @@
 
 import { Handlers } from "$fresh/server.ts";
-import { getCookies } from "$std/http/cookie.ts";
+import { getCookies } from "@std/http";
 import { App } from "../../islands/QuestionsAndAnswers.tsx";
 
 export const handler: Handlers = {
