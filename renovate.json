@@ -6,10 +6,12 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["*.yml"],
+      "fileMatch": [".+.yml", ".+.yaml"],
       "matchStrings": [
-        "(?<depName>.+?)-version: (?<currentValue>.+)\\n"
-      ]
+        "(?<depName>.+?)-version: v(?<currentValue>.+)\\n"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "denoland/deno"
     }
   ]
 }
