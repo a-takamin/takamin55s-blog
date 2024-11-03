@@ -26,7 +26,7 @@ import * as $LoginForm from "./islands/LoginForm.tsx";
 import * as $ProblemSolvingApp from "./islands/ProblemSolvingApp.tsx";
 import * as $QuestionsAndAnswers from "./islands/QuestionsAndAnswers.tsx";
 import * as $SimpleNotepad from "./islands/SimpleNotepad.tsx";
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
