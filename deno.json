@@ -35,9 +35,9 @@
     "jsdom": "npm:jsdom@^25.0.1",
     "preact": "https://esm.sh/preact@10.24.3",
     "preact/": "https://esm.sh/preact@10.24.3/",
-    "tailwindcss": "npm:tailwindcss@3.4.14",
-    "tailwindcss/": "npm:/tailwindcss@3.4.14/",
-    "tailwindcss/plugin": "npm:/tailwindcss@3.4.14/plugin.js"
+    "tailwindcss": "npm:tailwindcss@3.4.16",
+    "tailwindcss/": "npm:/tailwindcss@3.4.16/",
+    "tailwindcss/plugin": "npm:/tailwindcss@3.4.16/plugin.js"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
