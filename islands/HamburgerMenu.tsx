@@ -19,12 +19,6 @@ export function HamburgerMenu() {
     </a>
     <a
       class="hidden sm:block font-medium text-gray-900 dark:text-gray-100"
-      href="/apps"
-    >
-      Apps
-    </a>
-    <a
-      class="hidden sm:block font-medium text-gray-900 dark:text-gray-100"
       href="/about"
     >
       About
