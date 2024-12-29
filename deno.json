@@ -28,7 +28,7 @@
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@^1.8.0",
     "@std/dotenv": "jsr:@std/dotenv@^0.225.3",
     "@std/front-matter": "jsr:@std/front-matter@^1.0.5",
-    "@std/http": "jsr:@std/http@^1.0.9",
+    "@std/http": "jsr:@std/http@^1.0.12",
     "@std/path": "jsr:@std/path@^1.0.8",
     "@std/uuid": "jsr:@std/uuid@^1.0.4",
     "@testing-library/preact": "npm:@testing-library/preact@^3.2.4",
