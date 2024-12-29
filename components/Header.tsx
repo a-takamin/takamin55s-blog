@@ -1,4 +1,4 @@
-import { HamburgerMenu } from "../islands/HamburgerMenu.tsx";
+import { HamburgerMenu } from "../islands/Nav.tsx";
 
 export const Header = () => {
   return (

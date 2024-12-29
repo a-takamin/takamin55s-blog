@@ -8,13 +8,11 @@ import * as $api_login from "./routes/api/login.ts";
 import * as $categories from "./routes/categories.tsx";
 import * as $categories_category_ from "./routes/categories/[category].tsx";
 import * as $index from "./routes/index.tsx";
-import * as $login from "./routes/login.tsx";
 import * as $posts_slug_ from "./routes/posts/[...slug].tsx";
 import * as $tags from "./routes/tags.tsx";
 import * as $tags_tag_ from "./routes/tags/[tag].tsx";
-import * as $HamburgerMenu from "./islands/HamburgerMenu.tsx";
 import * as $LatestPages from "./islands/LatestPages.tsx";
-import * as $LoginForm from "./islands/LoginForm.tsx";
+import * as $Nav from "./islands/Nav.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -25,15 +23,13 @@ const manifest = {
     "./routes/categories.tsx": $categories,
     "./routes/categories/[category].tsx": $categories_category_,
     "./routes/index.tsx": $index,
-    "./routes/login.tsx": $login,
     "./routes/posts/[...slug].tsx": $posts_slug_,
     "./routes/tags.tsx": $tags,
     "./routes/tags/[tag].tsx": $tags_tag_,
   },
   islands: {
-    "./islands/HamburgerMenu.tsx": $HamburgerMenu,
     "./islands/LatestPages.tsx": $LatestPages,
-    "./islands/LoginForm.tsx": $LoginForm,
+    "./islands/Nav.tsx": $Nav,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
