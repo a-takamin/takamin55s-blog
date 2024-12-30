@@ -4,7 +4,6 @@ import { TagCard } from "../../components/TagCard.tsx";
 import { render as gfmRender } from "@deno/gfm";
 import { PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
-import { RelatedPostCard } from "../../components/RelatedPostCard.tsx";
 
 export const handler: Handlers<Post> = {
   async GET(_, ctx) {
