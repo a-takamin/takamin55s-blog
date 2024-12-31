@@ -1,4 +1,4 @@
-import { CSS as gmfCSS } from "@deno/gfm";
+import { CSS as gfmCSS } from "@deno/gfm";
 import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { type PageProps } from "$fresh/server.ts";
@@ -10,7 +10,7 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>takamin55's blog</title>
         <link rel="stylesheet" href="/styles.css" />
-        <style dangerouslySetInnerHTML={{ __html: gmfCSS }} />
+        <style dangerouslySetInnerHTML={{ __html: gfmCSS }} />
       </head>
       <body>
         <section class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">

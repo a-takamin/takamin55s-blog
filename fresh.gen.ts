@@ -5,6 +5,8 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $api_login from "./routes/api/login.ts";
+import * as $apps from "./routes/apps.tsx";
+import * as $apps_markdowneditor from "./routes/apps/markdowneditor.tsx";
 import * as $categories from "./routes/categories.tsx";
 import * as $categories_category_ from "./routes/categories/[category].tsx";
 import * as $index from "./routes/index.tsx";
@@ -12,6 +14,7 @@ import * as $posts_slug_ from "./routes/posts/[...slug].tsx";
 import * as $tags from "./routes/tags.tsx";
 import * as $tags_tag_ from "./routes/tags/[tag].tsx";
 import * as $LatestPages from "./islands/LatestPages.tsx";
+import * as $MarkdownEditor from "./islands/MarkdownEditor.tsx";
 import * as $Nav from "./islands/Nav.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
@@ -20,6 +23,8 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/api/login.ts": $api_login,
+    "./routes/apps.tsx": $apps,
+    "./routes/apps/markdowneditor.tsx": $apps_markdowneditor,
     "./routes/categories.tsx": $categories,
     "./routes/categories/[category].tsx": $categories_category_,
     "./routes/index.tsx": $index,
@@ -29,6 +34,7 @@ const manifest = {
   },
   islands: {
     "./islands/LatestPages.tsx": $LatestPages,
+    "./islands/MarkdownEditor.tsx": $MarkdownEditor,
     "./islands/Nav.tsx": $Nav,
   },
   baseUrl: import.meta.url,

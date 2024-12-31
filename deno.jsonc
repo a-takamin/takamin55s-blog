@@ -29,10 +29,14 @@
     "@std/dotenv": "jsr:@std/dotenv@^0.225.3",
     "@std/front-matter": "jsr:@std/front-matter@^1.0.5",
     "@std/http": "jsr:@std/http@^1.0.12",
+    // $fresh が Deno v1 に依存しているため手動でインポートしている
+    "$std/": "https://deno.land/std@0.216.0/",
     "@std/path": "jsr:@std/path@^1.0.8",
     "@std/uuid": "jsr:@std/uuid@^1.0.4",
     "@testing-library/preact": "npm:@testing-library/preact@^3.2.4",
     "jsdom": "npm:jsdom@^25.0.1",
+    // $fresh が Deno v1 に依存しているため手動でインポートしている
+    "$marked-mangle": "npm:marked-mangle@^1.1.10",
     "preact": "https://esm.sh/preact@10.25.4",
     "preact/": "https://esm.sh/preact@10.25.4/",
     "tailwindcss": "npm:tailwindcss@3.4.17",
