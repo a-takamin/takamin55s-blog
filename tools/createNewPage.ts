@@ -23,7 +23,7 @@ if (fileName === null) {
 }
 
 // ブログのタイトルの決定
-const title = prompt("title: ");
+const title = prompt("blog title in JP: ");
 if (title === null) {
   Deno.exit(1);
 }
