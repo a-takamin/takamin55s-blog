@@ -1,0 +1,63 @@
+4:"$Sreact.fragment"
+5:I[7138,["185","static/chunks/app/layout-ad66ad448e1ae576.js"],"HamburgerMenu"]
+6:I[9275,[],""]
+7:I[1343,[],""]
+9:I[3120,[],"OutletBoundary"]
+b:I[3120,[],"MetadataBoundary"]
+d:I[3120,[],"ViewportBoundary"]
+f:I[6130,[],""]
+1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/eb09a1126d7ddb4f.css","style"]
+3:HL["/_next/static/css/1a36663c02865c1c.css","style"]
+0:{"P":null,"b":"j4eKUXEgGu7PtPhv0n11R","p":"","c":["","posts","club-event-vhs2"],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","club-event-vhs2","d"],{"children":["__PAGE__?{\"slug\":\"club-event-vhs2\"}",{}]}]}]},"$undefined","$undefined",true],["",["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/eb09a1126d7ddb4f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/favicon.ico"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"msapplication-config","content":"/favicon/browserconfig.xml"}],["$","meta",null,{"name":"theme-color","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}]]}],["$","body",null,{"className":"__className_d65c78 dark:bg-slate-900 dark:text-slate-400","children":[["$","section",null,{"className":"mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0","children":[["$","header",null,{"className":"flex items-center justify-between py-10","children":[["$","div",null,{"children":["$","a",null,{"href":"/","children":["$","div",null,{"children":["$","div",null,{"className":"flex items-center justify-between mr-3","children":[["$","img",null,{"src":"/cake.png","className":"w-10 h-10 mr-1"}],["$","div",null,{"className":"h-8 text-2xl font-semibold","children":"takamin55's blog"}]]}]}]}]}],["$","$L5",null,{}]]}],["$","div",null,{"className":"min-h-screen","children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}],["$","footer",null,{"className":"bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800","children":["$","div",null,{"className":"container mx-auto","children":["$","div",null,{"className":"mt-16 flex flex-col items-center","children":[["$","div",null,{"className":"mb-3 flex space-x-4","children":[["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/a-takamin","children":["$","img",null,{"className":"fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400 h-6 w-6","src":"/github.svg"}]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://zenn.dev/takamin55","children":["$","img",null,{"className":"fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400 h-6 w-6","src":"/zenn.svg"}]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://twitter.com/takamin_55","children":["$","img",null,{"className":"fill-current text-gray-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400 h-6 w-6","src":"/x.svg"}]}]]}],["$","div",null,{"className":"mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400","children":[["$","div",null,{"children":"takamin55's blog"}],["$","div",null,{"children":"/"}],["$","div",null,{"children":"© 2024 by takamin55"}]]}]]}]}]}]]}]]}]]}],{"children":["posts",["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","club-event-vhs2","d"],["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","posts","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$4","c",{"children":["$L8",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1a36663c02865c1c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L9",null,{"children":"$La"}]]}],{},null]},null]},null]},null],["$","$4","h",{"children":[null,["$","$4","VZ4iG7WFcWWgHO30Fv4Xm",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","$Ld",null,{"children":"$Le"}],["$","meta",null,{"name":"next-size-adjust"}]]}]]}]]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:I[8173,["30","static/chunks/30-21f2ffe4dceffafd.js","333","static/chunks/app/posts/%5Bslug%5D/page-92ef2de421f56692.js"],"Image"]
+11:T15bf,<p>なんとこちらのクラブイベントに参加してきた。</p>
+<p>https://t.livepocket.jp/e/hareroki-vhs2</p>
+<p>なぜ「なんと」と付けたかというとクラブに行くような人ではないからだ。そもそも音楽を聞く習慣もなく、カラオケに行くと誰でも知ってそうなヒットソングを歌えずに困ってしまうタイプである。</p>
+<p>そんな中以下のアーティストたちの音楽を 6.5 h くらいぶっ通しで聞いたのだが、めちゃめちゃ楽しかった。</p>
+<ul>
+<li>J.A.G.U.A.R.</li>
+<li>ナウい女</li>
+<li>kors k</li>
+<li>ゆっきゅん</li>
+<li>MOTSU</li>
+<li>Ryu☆</li>
+<li>愛内里菜</li>
+<li>Aiobahn</li>
+<li>ハレトキドキ</li>
+</ul>
+<p>自分は何にも知らなかったのですが、どの方も界隈では有名な方らしい（すみません）。</p>
+<h2>個人的に特に刺さったアーティスト</h2>
+<h3>motsu</h3>
+<p>motsu を初めて聞き、そのノリノリな声と煽りで場を沸かすのが上手い方だなーと感じていた。音楽の合間に挟まるラップも疾走感があって癖になる。</p>
+<p>そんな感じで盛り上がっていたのだが、途中で知っている曲が流れ始めた。『Gamble Rumble』という曲だ。</p>
+<p>https://www.youtube.com/watch?v=KhTxlm4REQc</p>
+<p>この曲は『頭文字D』のオープニングで使われた曲らしい。自分は頭文字Dは観たことがないが、音 MAD の BGM でよく使われている曲だったため知っていた。</p>
+<p>motsu は「これも持ち歌だからやるぜぇ！」と言っていたので、「え！？この音 MAD の曲って motsu が作ってたの！」ってなって一気に motsu に親近感がわいた。</p>
+<p>そこからは motsu が流すどんな音楽にも手を振って盛り上がることができた。頭文字 D もぜひ観てみたい。</p>
+<h3>Ryu☆</h3>
+<p>Ryu☆さんは音ゲー界隈で有名な方らしい。
+自分の好きな太鼓の達人には残念ながら楽曲提供していなかったが、jubeat など様々な音ゲーで使われているようで、会場は音ゲーマーたちで盛り上がっていた。</p>
+<p>にもかかわらず自分も盛り上がれたのは、Ryu☆さんが自分の曲以外にも万人が知ってそうな曲（紅蓮華, Bling Bang Bang Born, アイドルなど）をたくさん使って会場を盛り上げてくれたためだ。</p>
+<p>自分は素人なので、万人を置いていくまいとするスタンスが良いな～と思って好きになった。</p>
+<p>しかし中でも Y.M.O. の Rydeen が流れたときはぶち上ることができた。めっちゃ好きな曲なのだ。好きな曲が流れると一気に前のめりになって盛り上がれるので、もっとクラブミュージックの定番曲や、好きな DJ の曲を知っていきたい。</p>
+<h3>ハレトキドキ</h3>
+<p>今回のクラブのメインアーティストで、結成 6 周年のお祝いイベントだった。めでたい。</p>
+<p>ハレトキドキの曲はなんというか、エモいのだ。哀愁を感じさせる。
+調べてみると 80s,90s,00s の音楽の要素が入っているらしい。要素が何なのかを理解することは残念ながら自分にはできないのだけど、なんだか昭和な雰囲気を感じるのは間違いない。
+そして自分はそういった古い音楽の雰囲気は好きなので、ハレトキドキの歌と好みがぴったりマッチする。</p>
+<p>ボーカルの方の声も素敵で、透き通る綺麗ではかなさを感じさせる声だなと感じてとても心地が良い。いくらちゃんや ACAね や miwa みたいな声なのだ（限られた自分が知っているボーカルの方で表現を試みる）。</p>
+<p>来年の夏に 3rd アルバムが出るとの新発表もあった。今日から応援したい。</p>
+<h2>クラブミュージックのジャンルに詳しくなりたい</h2>
+<p>今日参加してみて、クラブミュージックのジャンルに詳しくなっていきたいなと感じた。というのも、各ジャンルに詳しくなるともっと音楽を楽しめるようになると思ったのだ。</p>
+<p>まず、自分の好きな音楽に出会いやすくなる。</p>
+<p>洋楽を聞いたり EDM を聞いたりすると好きなテイストの曲にであることがあるのだが、今はなんでそれが好きなのか、どの要素が好きなのかをうまく説明できない。
+しかし似ている曲を好きになるので、確実に自分が好きな共通項があるはずなのだ。</p>
+<p>例えば Perfume や 平沢進 やボカロ, DAFT PUNK などの、なんだかあの合成されたようなフィルターがかかったような声が好きだ。</p>
+<p>ほかにも USAO の SUPERNOVA という曲も好きで、似たようなノリの曲に出会いたいし、洋楽にも好きな曲が多い。これらの自分が好きな要素は音楽用語ではなんと定義されているのか、そこを知るためにジャンルを知っていきたいと思った。</p>
+<p>それ以外にも誰かとコミュニケーションをとるために用語は知っておきたい。今だと「あの感じが好き」しか言えなくて悲しい。</p>
+<p>いつかは自分の好きな音楽を作ったりするのだろうか。とにかく今回の V.H.S.Ⅱ に参加してよかった。</p>
+8:["$","main",null,{"children":["$","div",null,{"className":"container mx-auto","children":["$","article",null,{"className":"mb-32","children":[[["$","h1",null,{"className":"pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14","children":"クラブイベント\"V.H.S.Ⅱ\"への参加とハレトキドキとの出会い"}],["$","div",null,{"className":"hidden md:block md:mb-12"}],["$","div",null,{"className":"mb-8 md:mb-16 sm:mx-0","children":["$","div",null,{"className":"sm:mx-0","children":["$","$L10",null,{"src":"/assets/blog/club-event-vhs2/cover.jpg","alt":"Cover Image for クラブイベント\"V.H.S.Ⅱ\"への参加とハレトキドキとの出会い","className":"shadow-sm w-full","width":1300,"height":430}]}]}],["$","div",null,{"className":"max-w-4xl mx-auto","children":[["$","div",null,{"className":"block md:hidden mb-6"}],["$","div",null,{"className":"mb-6 text-lg","children":["$","time",null,{"dateTime":"2024-10-20T15:10:24.000Z","children":"October\t21, 2024"}]}]]}]],["$","div",null,{"className":"max-w-4xl mx-auto","children":["$","div",null,{"className":"markdown-styles_markdown__ORfR8","dangerouslySetInnerHTML":{"__html":"$11"}}]}]]}]}]}]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"クラブイベント\"V.H.S.Ⅱ\"への参加とハレトキドキとの出会い | Next.js Blog Example with Markdown"}],["$","meta","2",{"name":"description","content":"A statically generated blog example using Next.js and Markdown."}],["$","meta","3",{"property":"og:title","content":"クラブイベント\"V.H.S.Ⅱ\"への参加とハレトキドキとの出会い | Next.js Blog Example with Markdown"}],["$","meta","4",{"property":"og:description","content":"A statically generated blog example using Next.js and Markdown."}],["$","meta","5",{"property":"og:image","content":"http://localhost:3000/assets/blog/club-event-vhs2/cover.jpg"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"クラブイベント\"V.H.S.Ⅱ\"への参加とハレトキドキとの出会い | Next.js Blog Example with Markdown"}],["$","meta","8",{"name":"twitter:description","content":"A statically generated blog example using Next.js and Markdown."}],["$","meta","9",{"name":"twitter:image","content":"http://localhost:3000/assets/blog/club-event-vhs2/cover.jpg"}]]
+a:null
