@@ -1,0 +1,35 @@
+name: ci-blog
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - blog/**
+  workflow_dispatch:
+
+jobs:
+  ci-blog:
+    name: ci-blog
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./blog
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup-nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 23.1.0
+
+      - name: install dependencies
+        run: npm ci
+
+      - name: check-build
+        run: npm run build
+
+      # TODO: cache
+      # TODO: もろもろ
