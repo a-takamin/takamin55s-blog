@@ -1,0 +1,11 @@
+# Static files that should not be tracked
+# Add any static files you don't want to version control here
+
+# Temporary image files
+*.tmp
+*.temp
+
+# Large media files (uncomment if needed)
+# *.mp4
+# *.mov
+# *.avi
