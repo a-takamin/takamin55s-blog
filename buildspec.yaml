@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      golang: 1.25
+    commands:
+    - mkdir /tmp/hugo
+    - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_0.152.2_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
+    - tar xf /tmp/hugo.tar.gz -C /tmp/hugo
+    - mv /tmp/hugo/hugo /usr/bin/hugo
+    - rm -rf /tmp/hugo*
+
+  pre_build:
+    commands:
+      - cd blog # 以降も blog ディレクトリ内への移動が引き継がれる
+      - go mod download # Hugo モジュールをダウンロード
+  
+  build:
+    commands:
+      - hugo
+      - aws s3 sync --delete public/ s3://${S3_BUCKET_NAME}
+  
+  post_build:
+    commands:
+      - |
+        if [ $CODEBUILD_BUILD_SUCCEEDING = 1 ]; then
+          echo "post build"
+        fi
+      # TODO: invalidate cloudfront
