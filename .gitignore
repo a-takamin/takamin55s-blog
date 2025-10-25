@@ -1,6 +1,8 @@
 # Hugo generated files
 blog/public/
+# Hugo generated files
 blog/resources/_gen/
+**/_gen/
 
 # Hugo build lock file
 blog/.hugo_build.lock
@@ -40,7 +42,7 @@ yarn-error.log*
 .env.production.local
 
 # Hugo vendor directory
-blog/_vendor/modules.txt
+blog/_vendor/
 
 # Backup files
 *.backup
