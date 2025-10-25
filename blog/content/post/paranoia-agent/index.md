@@ -4,6 +4,7 @@ description: 今敏のアニメ『妄想代理人』を見た感想を書きま�
 summary: 今敏監督によるアニメ『妄想代理人』の感想を書きます。<br>陰鬱な世界感ですがどこかコミカルで、自分の好きなタイプのアニメでした。
 tags:
   - アニメ
+  - 趣味
 date: "2025-01-03"
 author: takamin55
 usePageBundles: true
