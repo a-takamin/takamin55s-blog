@@ -5,11 +5,7 @@ phases:
     runtime-versions:
       golang: 1.25
     commands:
-    - mkdir /tmp/hugo
-    - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_0.152.2_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
-    - tar xf /tmp/hugo.tar.gz -C /tmp/hugo
-    - mv /tmp/hugo/hugo /usr/bin/hugo
-    - rm -rf /tmp/hugo*
+      - CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 
   pre_build:
     commands:
