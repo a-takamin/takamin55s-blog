@@ -1,2 +1,6 @@
 [tools]
 node = "23.1.0"
+go = "1.25.3"
+
+[env]
+MISE_HUGO_EXTENDED = "true"
