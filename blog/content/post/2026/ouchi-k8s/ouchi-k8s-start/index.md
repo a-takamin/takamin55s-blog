@@ -1,5 +1,5 @@
 ---
-title: ミニPCを買っておうちK8sを構築した
+title: ミニ PC を買っておうち K8s を構築した
 description: ミニPCを購入し、そこにおうちK8sを構築した過程の記事です。
 summary: ミニ PCをUbuntu化し、kubeadmを使ってKubernetesクラスターを構築しました。ArgoCDとTailscale Operatorも導入した記録を書きます。
 slug: ouchi-k8s-started

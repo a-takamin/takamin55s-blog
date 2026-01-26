@@ -1,5 +1,5 @@
 ---
-title: 監視にまつわるLinuxコマンドに入門する
+title: 監視にまつわる Linux コマンドに入門する
 description: 監視にまつわる Linux コマンドに入門した際の記事です。
 summary: Linux コマンドはその都度調べていますが、今回はお試しで監視にまつわる Linux コマンドに入門する YouTube 動画を見てみました。
 slug: linux-monitoring-tutorial
