@@ -1,7 +1,4 @@
-
 [ja]
-  title = "takamin55's ブログ"
-  LanguageName = "日本語"
-  weight = 1
-
-  # tip: assign the default language the lowest Weight
+title = "takamin55's ブログ"
+label = "日本語"
+weight = 1

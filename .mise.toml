@@ -1,6 +1,19 @@
 [tools]
 node = "23.1.0"
 go = "1.25.3"
+hugo-extended = "0.161.1"
 
 [env]
 MISE_HUGO_EXTENDED = "true"
+
+[tasks."setup"]
+description = "setup"
+run = "cd blog && go mod tidy"
+
+[tasks."dev"]
+description = "start hugo server for dev"
+run = "cd blog && hugo server"
+
+[tasks."update-m"]
+description = "update module"
+run = "cd blog && go mod update -u"

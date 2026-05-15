@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      golang: 1.23
+      golang: 1.25
     commands:
       - mkdir /tmp/hugo
-      - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
+      - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_extended_0.161.1_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
       - tar xf /tmp/hugo.tar.gz -C /tmp/hugo
       - mv /tmp/hugo/hugo /usr/bin/hugo
       - rm -rf /tmp/hugo*

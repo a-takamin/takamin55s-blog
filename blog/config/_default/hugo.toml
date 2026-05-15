@@ -1,20 +1,15 @@
-# set `baseurl` to your root domain
-# if you set it to "/" share icons won't work properly on production
-baseurl = "https://blog.takamin55.dev/" # Include trailing slash
-# title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
-# canonifyurls = true
-
-# theme = ["github.com/chipzoller/hugo-clarity"]  # Commented out because we're using Hugo Modules
+baseurl = "https://blog.takamin55.dev/"
+DefaultContentLanguage = "ja"
 disqusShortname = ""
 
-DefaultContentLanguage = "ja"
-# [languages]
-# config/_default/languages.toml
-
-# [menus]
-# config/_default/menus/menu.xx.toml
-
 enableRobotsTXT = true
+enableInlineShortcodes = true
+timeout = 30000
+footnoteReturnLinkContents = "^"
+
+[module]
+  [[module.imports]]
+    path = "github.com/chipzoller/hugo-clarity"
 
 [taxonomies]
 category = "categories"
@@ -27,10 +22,5 @@ home = ["HTML", "RSS", "JSON"]
 [pagination]
 pagerSize = 10
 
-[module]
-  [[module.imports]]
-    path = "github.com/chipzoller/hugo-clarity"
-
 [permalinks]
-# 各記事ファイルの slug に基づいて URL を生成
 post = "post/:slug/"
