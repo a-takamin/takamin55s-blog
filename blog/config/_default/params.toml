@@ -7,7 +7,7 @@ mainSections = ["post"]
 blogDir = "post"
 
 # Sidebar / UI
-introDescription = "プロダクト開発の生産性を向上するソフトウェアエンジニア。CI/CD, DevOps, LLMOps, SRE, AWS など。趣味も書きます。"
+introDescription = "何でも書き残しています。最近は復習が多いです。"
 languageMenuName = "🌐"
 mobileNavigation = "left"
 numberOfTagsShown = 14
