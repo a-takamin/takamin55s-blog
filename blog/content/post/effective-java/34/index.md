@@ -6,7 +6,7 @@ slug: effective-java-34
 tags:
   - Effective Java
   - Tech
-date: "2026-05-16"
+date: "2026-05-15"
 ---
 
 int enum パターンというものがある。
