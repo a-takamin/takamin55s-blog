@@ -35,6 +35,8 @@ fontsDir = "fonts/"
 ga_analytics = ""
 google_tag_manager_id = ""
 
+twitter = "@takamin_55"
+
 [author]
 name = "takamin55"
 
