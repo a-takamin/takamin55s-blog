@@ -1,7 +1,7 @@
 ---
 title: jwt と認証・認可のお話（OIDC, OAuth も絡めて）
-description: jwt と認証・認可（OIDC, OAuth）について調べたことを書きます。
-summary: jwt と認証・認可（OIDC, OAuth）について調べたことを書いた記事。
+description: JWT と認証・認可の基礎を、JWT がなかった頃のセッション方式の課題から解説します。OIDC・OAuth との関係も絡めて整理した記事です。
+summary: JWT を理解するため、セッション方式の課題から始めて認証・認可（OIDC・OAuth）との関係までを整理しました。
 slug: jwt-and-auth
 tags:
   - 認証・認可

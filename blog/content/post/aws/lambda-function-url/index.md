@@ -1,7 +1,7 @@
 ---
 title: Lambda の Function URL（関数 URL）で知っておいた方がいいこと
-description: Lambda の Function URL（関数 URL）で知っておいた方がいいことを書きます。
-summary: Lambda の Function URL（関数 URL）で知っておいた方がいいことをまとめた記事
+description: AWS Lambda の Function URL（関数 URL）について、API Gateway との違いや誕生の経緯を踏まえ、利用する前に知っておきたいポイントをまとめました。
+summary: Lambda の Function URL（関数 URL）が生まれた経緯と、API Gateway との違いや使う前に知っておきたいポイントをまとめた記事です。
 slug: about-lambda-function-url
 tags:
   - AWS

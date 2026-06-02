@@ -1,7 +1,7 @@
 ---
 title: おうち K8s に FreshRSS リーダーを立てて AI を使って毎日記事を要約する
-description: おうちK8sにFreshRSSというRSSリーダを立て、そのRSSのAPIを叩いて得た記事をAmazon Bedrockを使って要約し自分に結果をメールする仕組みを作った話。
-summary: おうちK8sにFreshRSSというRSSリーダを立て、新着記事をAmazon Bedrockを使って要約して毎朝メールを飛ばす仕組みを作りました。
+description: おうち Kubernetes に RSS リーダー FreshRSS を立て、その API で取得した新着記事を Amazon Bedrock で要約し、毎朝メールで届く仕組みを作った記録です。
+summary: おうち K8s に FreshRSS を立て、新着記事を Amazon Bedrock で要約して毎朝メールする情報収集の仕組みを作りました。
 slug: fresh-rss-summarization
 tags:
   - おうちK8s

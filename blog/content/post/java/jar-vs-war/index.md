@@ -1,7 +1,7 @@
 ---
 title: jar と war どっち問題と Servlet Container について
-description: SpringBoot でパッケージを jar にするのか war にするのか問題について書く。あと Servlet Container についても書く。
-summary: SpringBoot でパッケージを jar にするのか war にするのか問題について書く。あと Servlet Container についても書く。
+description: Spring Boot のパッケージングを jar と war のどちらにすべきかを整理します。結論は基本 jar である理由と、Servlet Container の役割についても解説します。
+summary: Spring Boot で jar と war のどちらを選ぶべきか、結論（基本は jar）とその理由、Servlet Container の役割をまとめました。
 slug: jar-vs-war
 tags:
   - Java

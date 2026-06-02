@@ -1,7 +1,7 @@
 ---
 title: Docker Network から学んでいくネットワーク
-description: Docker Network からネットワークについて学びます。
-summary: ネットワーク苦手マンなので、Docker Network を使ってネットワークについて学んだ記事です。
+description: ネットワークが苦手な人向けに、Docker Network を題材にコンテナ間通信やネットワークの仕組みを手を動かしながら学ぶ記事です。コンテナの独立性やポートの扱いを実例で確認します。
+summary: ネットワークが苦手なので、Docker Network を使ってコンテナ間通信やネットワークの基礎を手を動かして学びました。
 slug: network-learning-from-docker
 tags:
   - 独学CS

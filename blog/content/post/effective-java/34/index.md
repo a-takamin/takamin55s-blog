@@ -1,7 +1,7 @@
 ---
 title: Effective Java 34 int 定数の代わりに enum を使う
-description: Effective Java 34 を読んだ感想
-summary: enum を使う時は外部に switch を分離せずに定数に紐づけることを意識したい
+description: Effective Java 項目34「int 定数の代わりに enum を使う」のまとめです。int enum パターンの問題点と、振る舞いを enum 自身に持たせる設計のメリットを整理します。
+summary: Effective Java 項目34 を読み、int 定数の代わりに enum を使う理由と、振る舞いを enum に紐づける設計の意識点をまとめました。
 slug: effective-java-34
 tags:
   - Effective Java
