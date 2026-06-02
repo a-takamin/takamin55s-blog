@@ -15,7 +15,7 @@ numberOfTagsShown = 14
 # Post display
 showReadTime = false
 showShare = false
-largeTwitterCard = false
+largeTwitterCard = true
 figurePositionShow = false
 figurePositionLabel = "Figure"
 
