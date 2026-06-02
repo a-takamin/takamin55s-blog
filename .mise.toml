@@ -16,4 +16,4 @@ run = "cd blog && hugo server"
 
 [tasks."update-m"]
 description = "update module"
-run = "cd blog && go mod update -u"
+run = "cd blog && hugo mod get -u"
