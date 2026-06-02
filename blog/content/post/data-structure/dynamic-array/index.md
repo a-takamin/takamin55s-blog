@@ -3,9 +3,14 @@ title: Dynamic Array について
 description: データ構造の復習として、配列（Array）と動的配列（Dynamic Array）の仕組みや特徴、計算量の違いを整理した記事です。
 summary: 配列と動的配列（Dynamic Array）の仕組みと計算量の違いを、データ構造の復習として整理しました。
 slug: data-structure-dynamic-array
+categories:
+  - コンピュータサイエンス
 tags:
-  - Data Structure
-  - Tech
+  - データ構造
+  - アルゴリズム
+  - 計算量
+series:
+  - 独学CS
 date: "2026-05-16"
 ---
 

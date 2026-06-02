@@ -3,9 +3,14 @@ title: Grafana をおうち K8s に立てるまで
 description: おうち Kubernetes に Grafana を立てるまでの手順を、PVC と StorageClass による永続化のつまずきポイントを交えて解説します。
 summary: おうち K8s に Grafana を立てる過程で、PVC と StorageClass による永続ストレージの設定に触れた記録です。
 slug: grafana-setup
+categories:
+  - Kubernetes
 tags:
+  - Grafana
+  - PVC
+  - StorageClass
+series:
   - おうちK8s
-  - Tech
 date: "2026-01-30"
 ---
 

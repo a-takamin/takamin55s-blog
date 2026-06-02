@@ -3,9 +3,12 @@ title: record 型を使うか lombok を使うかについて
 description: Java で DTO を書くとき record 型と Lombok のどちらを使うべきか。両者の違いや関連するアノテーションを比較しながら整理した記事です。
 summary: Java の DTO で record 型を使うか Lombok を使うか、それぞれの特徴とアノテーションを比較して整理しました。
 slug: record-vs-lombok
-tags:
+categories:
   - Java
-  - Tech
+tags:
+  - record
+  - Lombok
+  - DTO
 date: "2026-05-17"
 ---
 

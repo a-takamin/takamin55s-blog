@@ -3,9 +3,14 @@ title: ミニ PC を買っておうち K8s を構築した
 description: ミニ PC を購入して Ubuntu 化し、kubeadm で自宅 Kubernetes クラスターを構築。ArgoCD と Tailscale Operator の導入までを記録した、おうち K8s 入門の記事です。
 summary: ミニ PC を Ubuntu 化し kubeadm で自宅 Kubernetes クラスターを構築、ArgoCD と Tailscale Operator も導入した記録です。
 slug: ouchi-k8s-started
+categories:
+  - Kubernetes
 tags:
+  - kubeadm
+  - ArgoCD
+  - Tailscale
+series:
   - おうちK8s
-  - Tech
 date: "2026-01-24"
 ---
 

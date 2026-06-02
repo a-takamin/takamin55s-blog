@@ -3,9 +3,13 @@ title: Effective Java 34 int 定数の代わりに enum を使う
 description: Effective Java 項目34「int 定数の代わりに enum を使う」のまとめです。int enum パターンの問題点と、振る舞いを enum 自身に持たせる設計のメリットを整理します。
 summary: Effective Java 項目34 を読み、int 定数の代わりに enum を使う理由と、振る舞いを enum に紐づける設計の意識点をまとめました。
 slug: effective-java-34
+categories:
+  - Java
 tags:
+  - enum
+  - 設計
+series:
   - Effective Java
-  - Tech
 date: "2026-05-15"
 ---
 

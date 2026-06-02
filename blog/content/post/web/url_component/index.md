@@ -3,9 +3,12 @@ title: URL を構成する用語について（スキーム・ホスト・ポー
 description: URL を構成する用語（スキーム・ホスト・ポート・オリジン・パス・クエリ）を改めて整理し、混同しやすい「ドメイン」「FQDN」との違いも解説します。
 summary: URL を構成する用語と、混同しやすいドメインや FQDN との違いを改めて整理した記事です。
 slug: url-component-terms
-tags:
+categories:
   - Web
-  - Tech
+tags:
+  - URL
+  - ドメイン
+  - FQDN
 date: "2026-05-24"
 ---
 
