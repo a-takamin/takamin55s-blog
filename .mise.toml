@@ -1,7 +1,7 @@
 [tools]
 node = "23.1.0"
 go = "1.25.3"
-hugo-extended = "0.161.1"
+hugo-extended = "0.163.0"
 
 [env]
 MISE_HUGO_EXTENDED = "true"
